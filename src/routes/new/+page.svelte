@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Counter from "$lib/conter/Counter.svelte";
+  import Counter from "./Counter.svelte";
   // import OldCounter from "$lib/oldCounter/OldCounter.svelte";
   let count = $state(6)
   let count2 = $state(7)

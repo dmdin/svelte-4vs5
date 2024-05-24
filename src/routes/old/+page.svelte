@@ -1,5 +1,5 @@
 <script lang="ts">
-  import OldCounter from "$lib/oldCounter/OldCounter.svelte";
+  import Counter from "./Counter.svelte";
 
 
   let count = 5
@@ -13,9 +13,9 @@
     <h1 class="font-bold">Old</h1>
 
     <p>Parent: {count}</p>
-    <OldCounter bind:count/>
+    <Counter bind:count/>
     <hr>
-    <OldCounter bind:count={count2}/>
+    <Counter bind:count={count2}/>
   </div>
 
 </div>
